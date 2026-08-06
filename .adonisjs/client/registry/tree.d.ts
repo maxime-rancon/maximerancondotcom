@@ -3,4 +3,7 @@ import type { routes } from './index.ts'
 
 export interface ApiDefinition {
   home: typeof routes['home']
+  ai: typeof routes['ai']
+  dev: typeof routes['dev']
+  multimedia: typeof routes['multimedia']
 }

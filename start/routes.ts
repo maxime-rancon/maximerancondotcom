@@ -12,3 +12,6 @@
 import router from '@adonisjs/core/services/router'
 
 router.on('/').renderInertia('home', {}).as('home')
+router.on('/ai').renderInertia('ai', {}).as('ai')
+router.on('/dev').renderInertia('dev', {}).as('dev')
+router.on('/multimedia').renderInertia('multimedia', {}).as('multimedia')

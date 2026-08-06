@@ -19,4 +19,40 @@ export interface Registry {
       errorResponse: unknown
     }
   }
+  'ai': {
+    methods: ["GET","HEAD"]
+    pattern: '/ai'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'dev': {
+    methods: ["GET","HEAD"]
+    pattern: '/dev'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'multimedia': {
+    methods: ["GET","HEAD"]
+    pattern: '/multimedia'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
 }
