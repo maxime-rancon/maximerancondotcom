@@ -1,1 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+@media (min-width: 992px) {
+	.main-navbar .container {
+		position: relative;
+	}
+
+	.main-navbar .navbar-collapse {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		width: auto;
+	}
+}

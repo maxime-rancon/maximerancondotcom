@@ -1,19 +1,34 @@
 import { Link } from '@adonisjs/inertia/react'
+import { usePage } from '@inertiajs/react'
 
 type NavbarProps = {
   appName: string
 }
 
 export default function Navbar({ appName }: NavbarProps) {
+  const { url } = usePage()
+
+  const currentPath = url.split('?')[0].split('#')[0]
+
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return currentPath === '/'
+    }
+
+    return currentPath === href || currentPath.startsWith(`${href}/`)
+  }
+
+  const linkClass = (href: string) => `nav-link${isActive(href) ? ' active fw-bold' : ''}`
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom main-navbar">
       <div className="container">
         <Link className="navbar-brand fw-semibold" href="/">
           {appName}
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#mainNavbar"
@@ -25,24 +40,40 @@ export default function Navbar({ appName }: NavbarProps) {
         </button>
 
         <div className="collapse navbar-collapse" id="mainNavbar">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" href="/">
+              <Link
+                className={linkClass('/')}
+                href="/"
+                aria-current={isActive('/') ? 'page' : undefined}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/ai">
+              <Link
+                className={linkClass('/ai')}
+                href="/ai"
+                aria-current={isActive('/ai') ? 'page' : undefined}
+              >
                 AI
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/dev">
+              <Link
+                className={linkClass('/dev')}
+                href="/dev"
+                aria-current={isActive('/dev') ? 'page' : undefined}
+              >
                 Dev
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/multimedia">
+              <Link
+                className={linkClass('/multimedia')}
+                href="/multimedia"
+                aria-current={isActive('/multimedia') ? 'page' : undefined}
+              >
                 Multimedia
               </Link>
             </li>
