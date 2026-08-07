@@ -3,7 +3,7 @@ import Navbar from '~/components/navbar'
 import { type ReactElement } from 'react'
 
 export default function Layout({ children }: { children: ReactElement<Data.SharedProps> }) {
-  const appName = import.meta.env.VITE_APP_NAME || 'Maxime Rancon'
+  const appName = import.meta.env.VITE_APP_NAME || 'Maxime Rançon'
 
   return (
     <>
