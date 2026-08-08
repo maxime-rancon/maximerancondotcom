@@ -6,7 +6,7 @@ type NavbarProps = {
 
 export default function Navbar({ appName }: NavbarProps) {
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom main-navbar">
+    <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom main-navbar  fixed-top">
       <div className="container">
         <Link className="navbar-brand fw-semibold" href="/">
           {appName}

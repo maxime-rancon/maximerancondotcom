@@ -34,6 +34,36 @@ export default function Bio() {
           career: automation and software development.
         </p>
         <br />
+        <p className="mb-0">In a nutshell, my skills are:</p>
+        <br />
+        <strong>🎥 Video production :</strong>
+        <p className="mb-0">
+          I studied video production at ESRA in Paris, with a focus on post-production, then started
+          working in the field as an institutional video maker.
+        </p>
+        <p className="mb-0">
+          During my career, I have worked on various projects, including educational videos,
+          marketing videos, and corporate videos. I have experience in all aspects of video
+          production:
+        </p>
+        <ul>
+          <li>Shooting on the field or with studio equipment</li>
+          <li>Post-production (Editing, Color Grading, Motion Design, Sound Mixing)</li>
+          <li>Live streaming</li>
+          <li>Podcasts</li>
+        </ul>
+        <strong>🪛 Programming :</strong>
+        <p className="mb-0">
+          Since my childhood, I have been fascinated by computers and technology.
+        </p>
+        <p className="mb-0">
+          While I started my carrer in video creation, I then had the opportunity to learn
+          programming, it first led to creation of small scripts to automate some basic tasks, then
+          to the development of full-blown web applications and automations.
+        </p>
+        <br />
+        <strong>🚄 Automation :</strong>
+        <p className="mb-0">TEXT</p>
       </section>
     </div>
   )

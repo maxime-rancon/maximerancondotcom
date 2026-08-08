@@ -8,8 +8,8 @@ export default function Layout({ children }: { children: ReactElement<Data.Share
   return (
     <>
       <Navbar appName={appName} />
-
-      <main className="container py-4">{children}</main>
+      <br />
+      <main className="container py-4 pt-5">{children}</main>
     </>
   )
 }

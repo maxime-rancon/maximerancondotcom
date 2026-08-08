@@ -5,7 +5,7 @@ export default function VideoNTech() {
         <div className="text-center">
           <h1>Best of both worlds</h1>
         </div>
-        <p>//PAragraph about code x video</p>
+        <p>PAragraph about code x video</p>
       </section>
     </>
   )
