@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <>
       <div className="text-center">
-        <h1>What I can do</h1>
+        <h1 className="fw-bold">What I can do</h1>
         <p>Feel free to explore my skills along with samples of my work.</p>
       </div>
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>

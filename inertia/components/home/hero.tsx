@@ -3,7 +3,7 @@ export default function Hero() {
     <>
       <div className="text-center">
         <p>Paris 🇫🇷 France</p>
-        <h1>Video Engineering</h1>
+        <h1 className="fw-bold">Video Engineering</h1>
         <p>
           Creating multimedia content, automating processes
           <br />

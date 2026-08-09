@@ -14,7 +14,7 @@ export default function Bio() {
     <div>
       <section style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div className="text-center">
-          <h1>About me</h1>
+          <h1 className="fw-bold">About me</h1>
         </div>
 
         <p className="mb-0">

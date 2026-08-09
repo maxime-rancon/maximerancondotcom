@@ -3,7 +3,7 @@ export default function VideoNTech() {
     <>
       <section style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div className="text-center">
-          <h1>Best of both worlds</h1>
+          <h1 className="fw-bold">Best of both worlds</h1>
         </div>
         <p>
           Multimedia content production and software development are two different fields, each with
