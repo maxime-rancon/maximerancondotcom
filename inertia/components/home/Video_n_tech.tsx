@@ -5,7 +5,16 @@ export default function VideoNTech() {
         <div className="text-center">
           <h1>Best of both worlds</h1>
         </div>
-        <p>PAragraph about code x video</p>
+        <p>
+          Multimedia content production and software development are two different fields, each with
+          its own set of skills and tools, having expertise in both areas allows me to innovate the
+          way I create content.
+        </p>
+        <p>
+          From leveraging generative AI to create footage, to using programmatic solutions to create
+          motion graphics, those two skill sets complement each other to create innovative
+          multimedia creation workflows: <strong>Video production at scale.</strong>
+        </p>
       </section>
     </>
   )

@@ -57,13 +57,30 @@ export default function Bio() {
           Since my childhood, I have been fascinated by computers and technology.
         </p>
         <p className="mb-0">
-          While I started my carrer in video creation, I then had the opportunity to learn
+          While I was doing video production for an edtech company, I had the opportunity to learn
           programming, it first led to creation of small scripts to automate some basic tasks, then
-          to the development of full-blown web applications and automations.
+          to the development of full-blown web applications and automations:
         </p>
+        <ul>
+          <li>Writing in JavaScript, TypeScript, and a bit of Python</li>
+          <li>Use AI agents like Github Copilot</li>
+          <li>Building web applications with frameworks like AdonisJS or React</li>
+          <li>Collaborating with other developers using version control systems like Git</li>
+          <li>Programmatic motion design creation using tools like Nexrender or Remotion</li>
+        </ul>
         <br />
         <strong>🚄 Automation :</strong>
-        <p className="mb-0">TEXT</p>
+        <p className="mb-0">
+          Automation focuses on streamlining repetitive tasks and improving efficiency in various
+          processes, including video production, software development or day-to-day tasks. I have
+          experience in automating tasks such as:
+        </p>
+        <ul>
+          <li>Using no-code automation tools like Zapier, Workato or n8n</li>
+          <li>Leveraging AI agents to make decisions</li>
+          <li>Use Github Actions for continuous software integration and deployment</li>
+          <li>Interact with APIs to integrate services into automations</li>
+        </ul>
       </section>
     </div>
   )
