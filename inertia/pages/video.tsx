@@ -23,11 +23,9 @@ export default function Video() {
           <li>Audio mixing</li>
           <li>Motion graphics</li>
         </ul>
-        <div style={{ padding: '75% 0 0 0', position: 'relative' }}></div>
       </div>
       <div>
         <h2 className="text-center">Samples</h2>
-        <p></p>
       </div>
     </>
   )

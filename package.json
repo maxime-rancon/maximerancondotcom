@@ -74,6 +74,7 @@
     "@inertiajs/react": "^2.3.24",
     "@popperjs/core": "^2.11.8",
     "@tuyau/core": "^1.2.2",
+    "@vimeo/player": "^2.30.4",
     "@vinejs/vine": "^4.4.0",
     "better-sqlite3": "^12.10.0",
     "bootstrap": "^5.3.8",
