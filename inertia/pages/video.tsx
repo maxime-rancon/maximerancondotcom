@@ -1,8 +1,27 @@
+import VimeoPlayer from '~/components/vimeo_player'
+
 export default function Video() {
   return (
     <>
       <div>
-        <h1 className="fw-bold text-center">Video Production</h1>
+        <div>
+          <h1 className="fw-bold text-center">Video Production</h1>
+        </div>
+        <br />
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
+              <VimeoPlayer videoId={1218116427} autoplay={false} title="Video Production Sample" />
+            </div>
+            <div className="col">
+              <VimeoPlayer videoId={1218116427} autoplay={false} title="Video Production Sample" />
+            </div>
+            <div className="col">
+              <VimeoPlayer videoId={1218116427} autoplay={false} title="Video Production Sample" />
+            </div>
+          </div>
+        </div>
+        <br />
         <p>I have many years of experience working in a studio, during this time I :</p>
         <ul>
           <li>Shoot on the field or in studio using DSLRs or standard cameras</li>
@@ -23,9 +42,6 @@ export default function Video() {
           <li>Audio mixing</li>
           <li>Motion graphics</li>
         </ul>
-      </div>
-      <div>
-        <h2 className="text-center">Samples</h2>
       </div>
     </>
   )

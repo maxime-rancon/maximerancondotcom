@@ -5,9 +5,15 @@ type VimeoPlayerProps = {
   videoId: number
   autoplay?: boolean
   className?: string
+  title: string
 }
 
-export default function VimeoPlayer({ videoId, autoplay = false, className }: VimeoPlayerProps) {
+export default function VimeoPlayer({
+  videoId,
+  autoplay = false,
+  className,
+  title,
+}: VimeoPlayerProps) {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const playerRef = useRef<Player | null>(null)
 
@@ -37,5 +43,16 @@ export default function VimeoPlayer({ videoId, autoplay = false, className }: Vi
     }
   }, [videoId, autoplay])
 
-  return <div ref={containerRef} className={className} />
+  return (
+    <>
+      <div>
+        <div ref={containerRef} className={className} />
+        <p className="fw-bold text-center">
+          <a href={`https://vimeo.com/${videoId}`} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </p>
+      </div>
+    </>
+  )
 }
