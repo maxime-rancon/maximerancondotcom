@@ -12,8 +12,9 @@ export default function VideoNTech() {
         </p>
         <p>
           From leveraging generative AI to create footage, to using programmatic solutions to create
-          motion graphics, those two skill sets complement each other to create innovative
-          multimedia creation workflows: <strong>Video production at scale.</strong>
+          motion graphics, the video and software development skillsets complement each other to
+          create innovative multimedia creation workflows:
+          <strong>Video production at scale.</strong>
         </p>
       </section>
     </>
