@@ -12,6 +12,30 @@ const routes = {
     tokens: [{"old":"/","type":0,"val":"/","end":""}],
     types: placeholder as Registry['home']['types'],
   },
+  'video': {
+    methods: ["GET","HEAD"],
+    pattern: '/video',
+    tokens: [{"old":"/video","type":0,"val":"video","end":""}],
+    types: placeholder as Registry['video']['types'],
+  },
+  'dev': {
+    methods: ["GET","HEAD"],
+    pattern: '/dev',
+    tokens: [{"old":"/dev","type":0,"val":"dev","end":""}],
+    types: placeholder as Registry['dev']['types'],
+  },
+  'automation': {
+    methods: ["GET","HEAD"],
+    pattern: '/automation',
+    tokens: [{"old":"/automation","type":0,"val":"automation","end":""}],
+    types: placeholder as Registry['automation']['types'],
+  },
+  'ai': {
+    methods: ["GET","HEAD"],
+    pattern: '/ai',
+    tokens: [{"old":"/ai","type":0,"val":"ai","end":""}],
+    types: placeholder as Registry['ai']['types'],
+  },
 } as const satisfies Record<string, AdonisEndpoint>
 
 export { routes }

@@ -19,4 +19,52 @@ export interface Registry {
       errorResponse: unknown
     }
   }
+  'video': {
+    methods: ["GET","HEAD"]
+    pattern: '/video'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'dev': {
+    methods: ["GET","HEAD"]
+    pattern: '/dev'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'automation': {
+    methods: ["GET","HEAD"]
+    pattern: '/automation'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
+  'ai': {
+    methods: ["GET","HEAD"]
+    pattern: '/ai'
+    types: {
+      body: {}
+      paramsTuple: []
+      params: {}
+      query: {}
+      response: unknown
+      errorResponse: unknown
+    }
+  }
 }

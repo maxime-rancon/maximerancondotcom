@@ -14,7 +14,7 @@ export default function Skills() {
               title="Video Production"
               description="I can produce videos or other multimedia products, from shooting to publishing."
               icon="🎥"
-              link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              link="/video"
               border="primary"
             />
           </div>
@@ -23,7 +23,7 @@ export default function Skills() {
               title="Programming"
               description="I can devellop software and web applications."
               icon="🪛"
-              link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              link="/dev"
               border="secondary"
             />
           </div>
@@ -35,7 +35,7 @@ export default function Skills() {
               title="Automation"
               description="I can automate tasks and workflows using various tools and scripts."
               icon="🚄"
-              link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              link="/automation"
               border="success"
             />
           </div>
@@ -44,7 +44,7 @@ export default function Skills() {
               title="AI"
               description="I can use AI to automate tasks and create multimedia content."
               icon="🤖"
-              link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              link="/ai"
               border="danger"
             />
           </div>
