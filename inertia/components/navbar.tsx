@@ -26,7 +26,7 @@ export default function Navbar({ appName }: NavbarProps) {
         </Link>
 
         <div className="collapse navbar-collapse" id="mainNavbar">
-          <ul className="navbar-nav ms-auto align-items-center">
+          <ul className="navbar-nav ms-auto align-items-center" style={{ margin: 'auto' }}>
             <li className="nav-item">
               <Link
                 className={`nav-link${isActive('/video') ? activeClass : ''}`}
