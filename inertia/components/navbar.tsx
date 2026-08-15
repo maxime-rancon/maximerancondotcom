@@ -1,16 +1,71 @@
 import { Link } from '@adonisjs/inertia/react'
+import { usePage } from '@inertiajs/react'
 
 type NavbarProps = {
   appName: string
 }
 
 export default function Navbar({ appName }: NavbarProps) {
+  const { url } = usePage()
+
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return url === '/'
+    }
+
+    return url === href || url.startsWith(`${href}/`)
+  }
+
+  const activeClass = ' active fw-bold'
+
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom main-navbar  fixed-top">
+    <nav className="navbar navbar-expand-md bg-body-tertiary border-bottom main-navbar fixed-top">
       <div className="container">
         <Link className="navbar-brand fw-semibold" href="/">
           {appName}
         </Link>
+
+        <div className="collapse navbar-collapse" id="mainNavbar">
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item">
+              <Link
+                className={`nav-link${isActive('/video') ? activeClass : ''}`}
+                href="/video"
+                aria-current={isActive('/video') ? 'page' : undefined}
+              >
+                Video
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link${isActive('/automation') ? activeClass : ''}`}
+                href="/automation"
+                aria-current={isActive('/automation') ? 'page' : undefined}
+              >
+                Automation
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link${isActive('/dev') ? activeClass : ''}`}
+                href="/dev"
+                aria-current={isActive('/dev') ? 'page' : undefined}
+              >
+                Dev
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link${isActive('/ai') ? activeClass : ''}`}
+                href="/ai"
+                aria-current={isActive('/ai') ? 'page' : undefined}
+              >
+                AI
+              </Link>
+            </li>
+          </ul>
+        </div>
+
         <a href="https://www.linkedin.com/in/mxrancon" target="_blank" rel="noopener noreferrer">
           <button type="button" className="btn btn-primary">
             <svg
