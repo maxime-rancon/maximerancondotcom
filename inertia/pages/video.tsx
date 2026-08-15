@@ -22,26 +22,85 @@ export default function Video() {
           </div>
         </div>
         <br />
-        <p>I have many years of experience working in a studio, during this time I :</p>
-        <ul>
-          <li>Shoot on the field or in studio using DSLRs or standard cameras</li>
-          <li>Set up and manage studio lights, including using DMX consoles</li>
-          <li>Use audio mixing consoles</li>
-          <li>Manage footage backups</li>
-          <li>Conduct livestreaming sessions</li>
-          <li>
-            Record a wide variety of content such as interviews, promotional videos, courses and
-            podcasts
-          </li>
-        </ul>
+        <div>
+          <h1 className="fw-bold text-center">Studio Experience</h1>
+        </div>
         <br />
-        <p>In addition to video production, I also have experience in post-production:</p>
-        <ul>
-          <li>Editing</li>
-          <li>Color correction</li>
-          <li>Audio mixing</li>
-          <li>Motion graphics</li>
-        </ul>
+
+        <div className="row align-items-center g-4">
+          <div className="col-md">
+            <p>I have many years of experience working in a studio, during this time I :</p>
+            <ul>
+              <li>Shoot on the field or in studio using DSLRs or standard cameras</li>
+              <li>Set up and manage studio lights, including using DMX consoles</li>
+              <li>Use audio mixing consoles</li>
+              <li>Manage footage backups</li>
+              <li>Conduct livestreaming sessions</li>
+              <li>
+                Record a wide variety of content such as interviews, promotional videos, courses and
+                podcasts
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-md-auto">
+            <img
+              src="/studio.jpg"
+              alt="Studio Experience"
+              className="img-fluid img-thumbnail"
+              style={{ maxWidth: '300px', width: '100%' }}
+            />
+          </div>
+        </div>
+
+        <br />
+        <div>
+          <h1 className="fw-bold text-center">Post-Production</h1>
+        </div>
+        <div className="row align-items-center g-4">
+          <div className="col-md">
+            <br />
+            <p>In addition to video production, I also have experience in post-production:</p>
+            <ul>
+              <li>
+                <strong>Editing</strong>
+                <p>
+                  Working mainly with Adobe Premiere, I also used Avid in the past, and know the
+                  basics of DaVinci Resolve
+                </p>
+              </li>
+              <li>
+                <strong>Color correction</strong>
+                <p>Using Lumetri on Premiere, or Davinci Resolve to make videos that look sharp</p>
+              </li>
+              <li>
+                <strong>Audio mixing</strong>
+                <p>
+                  About 80% of your message is conveyed through sound, so proper audio mixing is
+                  crucial, I know how to EQ, compress, and master audio to make it sound clear and
+                  professional
+                </p>
+              </li>
+              <li>
+                <strong>Motion graphics</strong>
+                <p>
+                  I can use After Effects and Blender to create motion graphics, lower thirds,
+                  keywords, and other visual elements to enhance videos
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-md-auto">
+            <img
+              src="/studio.jpg"
+              alt="Studio Experience"
+              className="img-fluid img-thumbnail"
+              style={{ maxWidth: '300px', width: '100%' }}
+            />
+          </div>
+        </div>
+        <br />
       </div>
     </>
   )
