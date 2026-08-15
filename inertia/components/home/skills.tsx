@@ -15,7 +15,7 @@ export default function Skills() {
               description="I can produce videos or other multimedia products, from shooting to publishing."
               icon="🎥"
               link="/video"
-              border="primary"
+              style="info"
             />
           </div>
           <div className="col-sm-6">
@@ -24,7 +24,7 @@ export default function Skills() {
               description="I can devellop software and web applications."
               icon="🪛"
               link="/dev"
-              border="secondary"
+              style="warning"
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Skills() {
               description="I can automate tasks and workflows using various tools and scripts."
               icon="🚄"
               link="/automation"
-              border="success"
+              style="success"
             />
           </div>
           <div className="col-sm-6">
@@ -45,7 +45,7 @@ export default function Skills() {
               description="I can use AI to automate tasks and create multimedia content."
               icon="🤖"
               link="/ai"
-              border="danger"
+              style="danger"
             />
           </div>
         </div>
