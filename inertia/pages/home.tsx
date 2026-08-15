@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <br />
+      <br />
       <Skills />
       <br />
       <VideoNTech />

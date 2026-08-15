@@ -9,6 +9,9 @@ export default function Hero() {
           <br />
           and both combined!
         </p>
+        <h4>
+          <span className="badge text-bg-secondary text-bg-danger">Now</span> With 50% more AI !
+        </h4>
       </div>
     </>
   )
