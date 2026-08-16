@@ -32,6 +32,11 @@ Core content areas to support:
 
 ## Architecture Notes
 
+### Website Structure
+
+- Use [.github/structure.md](.github/structure.md) as the source of truth for the purpose and content boundaries of the site's main sections.
+- Consult it when adding or reorganizing pages, routes, navigation, or section-specific content.
+
 ### Backend
 
 - HTTP routes are defined in start/routes.ts.
