@@ -18,7 +18,6 @@ Core content areas to support:
 - Frontend: Inertia.js + React
 - Styling: Bootstrap-first approach (plus custom CSS when needed)
 - API client integration: Tuyau client/provider
-- Database capability: Lucid + SQLite configured, but DB usage is optional while site remains static
 - Build tooling: Vite, TypeScript, ESLint, Prettier
 - Runtime/hosting: Docker on VPS behind Nginx
 - Deployment: GitHub Actions auto-deploys on push/merge to main

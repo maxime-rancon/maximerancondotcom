@@ -67,7 +67,6 @@ The site is then available at <http://localhost:3333>.
 | `npm start`         | Start the production server           |
 | `npm run lint`      | Run ESLint                            |
 | `npm run typecheck` | Type-check server and Inertia code    |
-| `npm test`          | Run the AdonisJS test suite           |
 | `npm run format`    | Format the repository with Prettier   |
 
 ## Project structure
