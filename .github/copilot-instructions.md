@@ -33,7 +33,7 @@ Core content areas to support:
 
 ### Website Structure
 
-- Use [.github/structure.md](.github/structure.md) as the source of truth for the purpose and content boundaries of the site's main sections.
+- Use [.github/structure.md](structure.md) as the source of truth for the purpose and content boundaries of the site's main sections.
 - Consult it when adding or reorganizing pages, routes, navigation, or section-specific content.
 
 ### Backend
