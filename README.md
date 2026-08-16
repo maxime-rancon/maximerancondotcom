@@ -90,5 +90,4 @@ Run the main checks before opening a pull request:
 ```bash
 npm run lint
 npm run typecheck
-npm test
 ```
