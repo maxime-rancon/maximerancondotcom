@@ -1,7 +1,6 @@
 export default function Footer() {
   function currentYear(): number {
-    const currentYear = new Date().getFullYear()
-    return currentYear
+    return new Date().getFullYear()
   }
   return (
     <nav className="navbar bg-body-tertiary">
