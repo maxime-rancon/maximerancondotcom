@@ -1,5 +1,6 @@
 import { type Data } from '@generated/data'
 import Navbar from '~/components/navbar'
+import Footer from '~/components/footer'
 import { type ReactElement } from 'react'
 
 export default function Layout({ children }: { children: ReactElement<Data.SharedProps> }) {
@@ -10,6 +11,7 @@ export default function Layout({ children }: { children: ReactElement<Data.Share
       <Navbar appName={appName} />
       <br />
       <main className="container py-4 pt-5">{children}</main>
+      <Footer />
     </>
   )
 }

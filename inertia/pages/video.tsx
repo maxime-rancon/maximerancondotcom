@@ -31,11 +31,22 @@ export default function Video() {
           <div className="col-md">
             <p>I have many years of experience working in a studio, during this time I :</p>
             <ul>
-              <li>Shoot on the field or in studio using DSLRs or standard cameras</li>
-              <li>Set up and manage studio lights, including using DMX consoles</li>
-              <li>Use audio mixing consoles</li>
-              <li>Manage footage backups</li>
-              <li>Conduct livestreaming sessions</li>
+              <li>
+                <strong>Shooting</strong>
+                <p>In the field, or in the studio, using DSLRs or standard cameras</p>
+              </li>
+              <li>
+                <strong>Lighting</strong>
+                <p>Set up and manage studio lights, including using DMX consoles</p>
+              </li>
+              <li>
+                <strong>Sound</strong>
+                <p>Use audio mixing consoles</p>
+              </li>
+              <li>
+                <strong>Live</strong>
+                <p>Conduct livestreaming sessions</p>
+              </li>
               <li>
                 Record a wide variety of content such as interviews, promotional videos, courses and
                 podcasts

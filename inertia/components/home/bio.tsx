@@ -38,13 +38,17 @@ export default function Bio() {
         <br />
         <p className="mb-0">In a nutshell, my skills are:</p>
         <br />
-        <strong>🎥 Video production :</strong>
+        <h5>
+          <strong>🎥 Video production :</strong>
+        </h5>
         <ul>
           <li>Shooting on the field or with studio equipment</li>
           <li>Post-production (Editing, Color Grading, Motion Design, Sound Mixing)</li>
           <li>Live streaming</li>
         </ul>
-        <strong>🪛 Programming :</strong>
+        <h5>
+          <strong>🪛 Programming :</strong>
+        </h5>
         <ul>
           <li>Writing in JavaScript, TypeScript, and a bit of Python</li>
           <li>Use AI agents like Github Copilot</li>
@@ -52,7 +56,9 @@ export default function Bio() {
           <li>Collaborating with other developers using version control systems like Git</li>
           <li>Programmatic motion design creation using tools like Nexrender or Remotion</li>
         </ul>
-        <strong>🚄 Automation :</strong>
+        <h5>
+          <strong>🚄 Automation :</strong>
+        </h5>
         <ul>
           <li>Using no-code automation tools like Zapier, Workato or n8n</li>
           <li>Leveraging AI agents to make analysis and decisions</li>
