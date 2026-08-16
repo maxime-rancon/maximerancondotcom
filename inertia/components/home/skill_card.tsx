@@ -19,7 +19,9 @@ export default function SkillCard({ title, description, icon, link, style }: Ski
           {icon}
           {title}
         </h5>
-        <p className="card-text">{description}</p>
+        <p className="card-text" style={{ marginBottom: '40px' }}>
+          {description}
+        </p>
         <a
           href={link}
           className={`btn ${btnBorderClass}`}

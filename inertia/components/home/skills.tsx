@@ -4,8 +4,10 @@ export default function Skills() {
   return (
     <>
       <div className="text-center">
-        <h1 className="fw-bold">What I can do</h1>
-        <p>Feel free to explore my skills along with samples of my work.</p>
+        <h1 className="fw-bold">
+          <span style={{ color: '#80CB9A' }}>What I can do</span>
+        </h1>
+        <p>My main skills along with samples of my work</p>
       </div>
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
         <div className="row">

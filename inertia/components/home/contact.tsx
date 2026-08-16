@@ -2,7 +2,9 @@ export default function Contact() {
   return (
     <section style={{ maxWidth: '900px', margin: '0 auto' }}>
       <div className="text-center">
-        <h1 className="fw-bold">Contact me</h1>
+        <h1 className="fw-bold">
+          <span style={{ color: '#D7C234' }}>Contact me</span>
+        </h1>
         <p>
           My DMs are open on<span> </span>
           <a href="https://www.linkedin.com/in/mxrancon" target="_blank" rel="noopener noreferrer">

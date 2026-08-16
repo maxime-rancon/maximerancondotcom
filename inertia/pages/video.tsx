@@ -71,7 +71,7 @@ export default function Video() {
               </li>
               <li>
                 <strong>Color correction</strong>
-                <p>Using Lumetri on Premiere, or Davinci Resolve to make videos that look sharp</p>
+                <p>Using Premiere or Davinci Resolve to make videos that look sharp</p>
               </li>
               <li>
                 <strong>Audio mixing</strong>

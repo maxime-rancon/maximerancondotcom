@@ -3,7 +3,15 @@ export default function VideoNTech() {
     <>
       <section style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div className="text-center">
-          <h1 className="fw-bold">Best of both worlds</h1>
+          <h1 className="fw-bold">
+            <span
+              style={{
+                color: '#4BD0D9',
+              }}
+            >
+              Video production at scale
+            </span>
+          </h1>
         </div>
         <p>
           Multimedia content production and software development are two different fields, each with
@@ -13,8 +21,7 @@ export default function VideoNTech() {
         <p>
           From leveraging generative AI to create footage, to using programmatic solutions to create
           motion graphics, the video and software development skillsets complement each other to
-          create innovative multimedia creation workflows:
-          <strong>Video production at scale.</strong>
+          create innovative multimedia creation workflows.
         </p>
       </section>
     </>

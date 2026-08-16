@@ -9,9 +9,10 @@ export default function Home() {
       <Hero />
       <br />
       <br />
+      <VideoNTech />
+      <br />
       <Skills />
       <br />
-      <VideoNTech />
       <br />
       <Bio />
       <br />
