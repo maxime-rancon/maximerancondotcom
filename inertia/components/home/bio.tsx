@@ -12,7 +12,7 @@ export default function Bio() {
 
   return (
     <div>
-      <section style={{ maxWidth: '900px', margin: '0 auto' }}>
+      <section>
         <div className="text-center">
           <h1 className="fw-bold">
             <span style={{ color: '#A5C76E' }}>About me</span>

@@ -48,9 +48,9 @@ export default function VimeoPlayer({
       <div>
         <div ref={containerRef} className={className} />
         <p className="fw-bold text-center">
-          <a href={`https://vimeo.com/${videoId}`} target="_blank" rel="noopener noreferrer">
-            {title}
-          </a>
+          {/*<a href={`https://vimeo.com/${videoId}`} target="_blank" rel="noopener noreferrer">*/}
+          {title}
+          {/*</a>*/}
         </p>
       </div>
     </>

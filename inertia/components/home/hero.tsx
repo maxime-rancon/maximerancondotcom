@@ -18,7 +18,7 @@ export default function Hero() {
           <span> ✨</span>
         </h1>
         <br />
-        <h5>
+        <h5 style={{ lineHeight: '1.5' }}>
           Creating multimedia content, automating processes
           <br />
           and both combined!

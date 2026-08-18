@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: ReactElement<Data.Share
     <>
       <Navbar appName={appName} />
       <br />
-      <main className="container py-4 pt-5">{children}</main>
+      <main className="py-4 pt-5">{children}</main>
       <Footer />
     </>
   )

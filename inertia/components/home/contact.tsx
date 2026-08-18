@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section style={{ maxWidth: '900px', margin: '0 auto' }}>
+    <section>
       <div className="text-center">
         <h1 className="fw-bold">
           <span style={{ color: '#D7C234' }}>Contact me</span>

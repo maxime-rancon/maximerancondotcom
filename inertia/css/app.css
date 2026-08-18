@@ -11,4 +11,8 @@
 		transform: translateX(-50%);
 		width: auto;
 	}
+	main  {
+		max-width: 1000px;
+		margin: auto;
+	}
 }
